@@ -1,0 +1,27 @@
+{
+  "name": "art",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sketch.js",
+  "dependencies": {
+    "canvas-sketch": "0.0.25",
+    "glsl-aastep": "^1.0.1",
+    "glsl-dither": "^1.0.1",
+    "glsl-hsl2rgb": "^1.1.0",
+    "glsl-noise": "0.0.0",
+    "hex-rgb": "^3.0.0",
+    "npm": "^6.4.1",
+    "perspective-camera": "^2.0.1",
+    "primitive-icosphere": "^1.0.2",
+    "primitive-quad": "^2.0.0",
+    "regl": "^1.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "canvas-sketch sketch.js --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
