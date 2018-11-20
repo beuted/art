@@ -27,7 +27,7 @@ export const sketch = ({ gl, update, render, pause }) => {
   const drawQuad = regl({
 
     // Fragment & Vertex shaders
-    frag: glslify(path.resolve(__dirname, 'assets/shaders/webgl-sketch3.frag')),
+    frag: glslify(path.resolve(__dirname, 'assets/shaders/webgl-sketch2.frag')),
     vert: glslify(path.resolve(__dirname, 'assets/shaders/topomap.vert')),
 
     // Send mesh vertex attributes to shader
